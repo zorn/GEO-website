@@ -1,0 +1,44 @@
+body
+{
+	padding: 0px;
+	margin: 0px;
+	color: #333;
+	font-family: Helvetica, Verdana, Arial, Helvetica, sans-serif;
+	background-color: #eee;
+	font-size: 12pt;
+}
+
+#container
+{
+	width: 900px;
+	margin: 0 auto;
+}
+
+#billboard
+{
+	background-color: red;
+}
+
+br.clear_floats { clear: both; }
+
+#phone_preview
+{
+	background-color: green;
+	float: left;
+}
+
+#lettering
+{
+	margin-top:100px;
+}
+
+#main_buttons
+{
+	background-color: yellow;
+	text-align: center;
+}
+
+#more_info
+{
+	background-color: white;
+}
