@@ -4,8 +4,8 @@ body
 	margin: 0px;
 	color: #333;
 	font-family: Helvetica, Verdana, Arial, Helvetica, sans-serif;
-	background-color: #eee;
-	font-size: 12pt;
+	background-color: #fff;
+	font-size: 15pt;
 }
 
 #container
@@ -16,29 +16,72 @@ body
 
 #billboard
 {
+/*
 	background-color: red;
+*/
 }
 
 br.clear_floats { clear: both; }
 
-#phone_preview
+/*
+.screenshot
 {
-	background-color: green;
-	float: left;
+	position: absolute;
+	top: 174px;
+	left: 90px;
 }
+*/
+
 
 #lettering
 {
 	margin-top:100px;
 }
 
+#app_store_badge
+{
+	margin:25px 0;
+}
+
 #main_buttons
 {
+/*
 	background-color: yellow;
+*/
 	text-align: center;
 }
 
 #more_info
 {
 	background-color: white;
+	padding: 0 2em;
+}
+
+#more_info h3 { margin: 0; }
+
+#slideshow
+{
+	float: left;
+	position: relative;
+	background-image: url(images/large_iphone4.png);
+	width: 383px;
+	height: 798px;
+	background-repeat: no-repeat;
+}
+
+#slideshow IMG {
+    position:absolute;
+    top: 174px;
+	left: 90px;
+    z-index:8;
+    opacity:0.0;
+}
+
+#slideshow IMG.active {
+    z-index:10;
+    opacity:1.0;
+}
+
+#slideshow IMG.last-active {
+    z-index:9;
 }
