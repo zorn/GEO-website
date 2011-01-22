@@ -2,7 +2,7 @@ body
 {
 	padding: 0px;
 	margin: 0px;
-	color: #333;
+	color: #333333;
 	font-family: Helvetica, Verdana, Arial, Helvetica, sans-serif;
 	background-color: #fff;
 	font-size: 15pt;
@@ -19,6 +19,29 @@ body
 /*
 	background-color: red;
 */
+}
+
+a:link {
+	color: #347de4;
+	text-decoration: none;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+a:hover {
+	color: #f46d00;
+	text-decoration: underline;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.roundedCorner {
+	margin-left: 0;
+	margin-bottom: 10px;
+	margin-right: 0;
+	margin-top: 10px;
+	background: #9eb2b8;
+	padding: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
 }
 
 br.clear_floats { clear: both; }
