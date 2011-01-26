@@ -34,6 +34,12 @@ a:hover {
 	font-family: Helvetica, Arial, sans-serif;
 }
 
+a:visited {
+	color: #347de4;
+	text-decoration: none;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
 .roundedCorner {
 	margin-left: 0;
 	margin-bottom: 10px;
